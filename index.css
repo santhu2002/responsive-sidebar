@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: black;
+    /* color: cornsilk; */
+    height: 100%;
+    width: 240px;
+    padding: 6px 14px;
+
+}
+.sidebar .logo{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.logo i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.logo .logoname{
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.sidebar #btn{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 85%;
+    top: 17px;
+    text-align: center;
+    /* height: 50px; */
+    /* width: 50px; */
+    /* line-height: 50px; */
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.sidebar ul li a input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: rgb(14, 12, 12);
+    border-radius: 12px;
+    border: none;
+    padding-left: 50px;
+    font-size: 18px;
+    left: 0;
+    top: 0;
+
+
+}
+.sidebar ul li .bx-search-alt-2{
+    z-index: 99;
+    position: absolute;
+    color: white;
+    top: 3px;
+}
+
+
+.sidebar ul{
+    margin-top: 20px;
+}
+.sidebar ul li{
+    margin: 0 6px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    
+    
+    list-style: none;
+}
+
+.sidebar ul li   :hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    /* height: 40px; */
+  
+    
+    
+    
+}
+
+
+
+.sidebar ul li a {
+    text-decoration: none;
+    /* font-size: 20px; */
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.5 ease;
+   
+}
+
+.sidebar .profilecontent{
+
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(14, 12, 12);
+
+}
+.sidebar .profilecontent .profile{
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.sidebar .profilecontent .profile .profiledetails{
+    padding: 10px 7px;
+    
+}
+.sidebar .profilecontent .profile .bx-log-out{
+    position: absolute;
+    left:80%;
+    font-size: 23px;
+}
+.sidebar .profilecontent .profile .profileimg{
+    font-size: 26px;
+}
+
+
+
